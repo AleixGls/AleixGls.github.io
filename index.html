@@ -1,77 +1,85 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>4. Imágenes</title>
-    </head>
-    <body>
-        <div>
-            <h1>
-                4. Imágenes
-            </h1>
-            <div>
-                <h2>
-                    Imágenes con Diferentes Formatos
-                </h2>
-                <p>
-                    JPEG:
-                </p>
-                <img src="Imagenes/imagen.jpeg" width="300">
-                <p>
-                    PNG:
-                </p>
-                <img src="Imagenes/imagen.png" width="300">
-                <p>
-                    GIF:
-                </p>
-                <img src="Imagenes/imagen.gif" width="300">
-                <p>
-                    Los formatos de imagen tienen diferentes propósitos:
-                    <ul>
-                        <li>JPEG: Ideal para fotografías o imágenes con muchos colores debido a su compresión con pérdida, lo que reduce el tamaño del archivo.</li>
-                        <li>PNG: Adecuado para imágenes con fondo transparente o gráficos que requieren mayor calidad y detalles.</li>
-                        <li>GIF: Se utiliza para imágenes animadas o gráficos simples con pocos colores.</li>
-                    </ul>
-                </p>
-            </div>
-            <div>
-                <h2>
-                    Imágenes como Enlaces
-                </h2>
-                <p>
-                    Haz clic en la siguiente imagen para ir a Google:
-                </p>
-                <a href="https://www.google.com" target="_blank">
-                    <img src="Imagenes/google_imagen.png" width="200">
-                </a>
-            </div>
-            <div>
-                <h2>
-                    Imágenes con Texto Alternativo
-                </h2>
-                <p>
-                    A continuación se presentan algunas imágenes con texto alternativo. Si desactivas las imágenes en tu navegador, verás el texto alternativo:
-                </p>
-                <img src="Imagenes/imagen1.jpeg" alt="Un paisaje hermoso con montañas" width="300">
-                <img src="Imagenes/imagen2.jpeg" alt="Un gato jugando con una pelota" width="300">
-                <img src="Imagenes/imagen3.png" alt="Una ilustración de un diagrama técnico" width="300">
-            </div>
-            <div>
-                <h2>
-                    Uso de Imágenes en Miniatura
-                </h2>
-                <p>
-                    Haz clic en las miniaturas para ver las imágenes en tamaño completo:
-                </p>
-                <a href="Imagenes/thumbnail1.png" target="_blank">
-                    <img src="Imagenes/thumbnail1.png" width="100">
-                </a>
-                <a href="Imagenes/thumbnail2.png" target="_blank">
-                    <img src="Imagenes/thumbnail2.png"width="100">
-                </a>
-                <a href="Imagenes/thumbnail3.jpeg" target="_blank">
-                    <img src="Imagenes/thumbnail3.jpeg" width="100">
-                </a>
-            </div>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum Vitae</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado del CV -->
+    <div class="header">
+        <h1>Aleix Linares Sousa</h1>
+        <p class="contact-info">
+            Dirección: Crer. Doctor Rotllant 55 Bis, Masquefa, España <br>
+            Teléfono: +34 640 05 48 29 <br> 
+            Correo electrónico: 
+            <a href="mailto:aleixgls@gmail.com">
+                aleixgls@gmail.com
+            </a>
+        </p>
+    </div>
+
+    <!-- Perfil Profesional -->
+    <div class="section">
+        <h2 class="section-title">Descripcion</h2>
+        <div class="section-content">
+            <p>
+                Mi nombre es Aleix, tengo 18 años. Actualmente vivo en Masquefa, aunque viví en Piera hasta los 14 años.<br><br>
+
+                Estudié la ESO durante dos años en Piera y otros dos en Masquefa. Después de eso, decidí ir a Castellbisbal para estudiar un grado medio en informática en el INS Castellbisbal, y ahora estudio un grado superior en desarrollo de aplicaciones multiplataforma en el INS Esteve Terrades i Illa. Aparte de eso, tengo varios certificados de Cisco en gestión de redes y también un certificado en administración de sistemas operativos Linux.<br>
+                
+                Trabajé como becario durante 6 meses en el CTC de Masquefa (Centro Tecnologico Comunitaro). Mi trabajo allí consistió en reparar y configurar routers, switches y otros tipos de equipos.<br>
+                
+                Me interesa aprender cosas nuevas, sin importar el tema, y siempre estoy dispuesto a explorar ideas. Creo que el aprendizaje continuo ayuda al crecimiento personal y profesional.
+            </p>
         </div>
-    </body>
+    </div>
+
+    <!-- Educación -->
+    <div class="section">
+        <h2 class="section-title">Educación</h2>
+        <div class="section-content">
+            <h3>IE Piera</h3>
+            <p>ESO | 2017 - 2012 </p>
+            <h3>INS Masquefa</h3>
+            <p>ESO | 2020 - 2021</p>
+            <h3>INS Castellbisbal</h3>
+            <p>CFGM Sistemas microinformáticos y redes | 2021 - 2024</p>
+            <h3>INS Esteve Terradas i Illa</h3>
+            <p>CFGS Desarrollo de aplicaciones multiplataforma | 2024 </p>
+        </div>
+    </div>
+
+    <!-- Experiencia Laboral -->
+    <div class="section">
+        <h2 class="section-title">Experiencia Laboral</h2>
+        <div class="section-content">
+            <h3>Nombre de la Empresa - Puesto</h3>
+            <p>Fecha de inicio - Fecha de finalización</p>
+            <ul>
+                <li>Responsabilidad o logro destacado #1.</li>
+                <li>Responsabilidad o logro destacado #2.</li>
+                <li>Responsabilidad o logro destacado #3.</li>
+            </ul>
+            <!-- Repite para más experiencias -->
+        </div>
+    </div>
+
+
+
+    <!-- Habilidades -->
+    <div class="section">
+        <h2 class="section-title">Habilidades</h2>
+        <div class="section-content">
+            <ul>
+                <li>Habilidad #1</li>
+                <li>Habilidad #2</li>
+                <li>Habilidad #3</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
 </html>
